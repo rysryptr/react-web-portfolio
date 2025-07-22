@@ -29,7 +29,8 @@ export const Hero = () => {
           </div>
           <div className="flex items-center gap-2 sm:gap-4 justify-center md:justify-start">
             <a
-              href="#"
+              href="/cv/CV-Riyo_Surya_Putra.pdf"
+              download
               className="p-4 bg-sky-500 hover:bg-sky-400 rounded-full flex items-center gap-2 hover:cursor-pointer"
             >
               Download CV
