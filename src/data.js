@@ -93,6 +93,7 @@ export const listProjects = [
     name: "Work App",
     desc: "Vue WorkApp is a simple timer-based task management appilcation that helps users get work finished in a more focus and structured way.",
     tools: ["HTML", "Tailwindcss", "Vue", "JSON-Server"],
+    link: "https://github.com/rysryptr/vue-workapp",
     dad: "200",
   },
   {
@@ -101,6 +102,7 @@ export const listProjects = [
     name: "Shoppeeng",
     desc: "Shoppeeng App is a simple e-commerce application that allow user to browse a variety of electronic products, view product details, add items to the cart, and proceed to checkout. The app is designed with a responsive user interface and intuitive shopping flow.",
     tools: ["HTML", "Tailwindcss", "Vite", "Vue", "JSON-Server"],
+    link: "https://github.com/rysryptr/vue-shoppeeng",
     dad: "300",
   },
   {
@@ -116,6 +118,7 @@ export const listProjects = [
       "Custom Hooks",
       "JSON-Server",
     ],
+    link: "https://github.com/rysryptr/minimalism-ecomm",
     dad: "400",
   },
 ];

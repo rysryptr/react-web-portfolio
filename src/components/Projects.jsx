@@ -53,10 +53,11 @@ export const Projects = () => {
             </div>
             <div className="mt-4 text-center">
               <a
-                href="#"
+                href={project.link}
+                target="_blank"
                 className="w-full block bg-sky-500 p-3 rounded-md hover:bg-sky-400"
               >
-                View Details
+                <i className="ri-github-fill mr-2 text-lg"></i>View on Github
               </a>
             </div>
           </div>
