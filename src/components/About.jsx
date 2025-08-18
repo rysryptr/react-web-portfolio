@@ -25,11 +25,11 @@ export const About = () => {
         API. I am also quick to learn and adapt to new tools and technologies.
       </p>
       <div className="flex items-center justify-between gap-2">
-        <img
+        {/* <img
           src={DataImage.HeroImage}
           alt="Hero Image"
           className="w-16 rounded-md sm:block hidden"
-        />
+        /> */}
         <div className="flex gap-2 md:gap-6">
           <div>
             <p className="text-3xl">

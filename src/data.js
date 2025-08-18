@@ -7,8 +7,8 @@ const Image = {
 export default Image;
 
 import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/vuejs.png";
+import Tools2 from "/assets/tools/vuejs.png";
+import Tools3 from "/assets/tools/reactjs.png";
 import Tools4 from "/assets/tools/tailwind.png";
 import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
@@ -27,14 +27,14 @@ export const listTools = [
   {
     id: 2,
     image: Tools2,
-    name: "React JS",
+    name: "Vue JS",
     ket: "Library",
     dad: "200",
   },
   {
     id: 3,
     image: Tools3,
-    name: "Vue JS",
+    name: "React JS",
     ket: "Library",
     dad: "300",
   },
@@ -85,6 +85,7 @@ export const listTools = [
 import Project1 from "/assets/proyek/project1.webp";
 import Project2 from "/assets/proyek/project2.webp";
 import Project3 from "/assets/proyek/project3.webp";
+import Project4 from "/assets/proyek/project4.webp";
 
 export const listProjects = [
   {
@@ -101,9 +102,18 @@ export const listProjects = [
     image: Project2,
     name: "Shoppeeng",
     desc: "Shoppeeng App is a simple e-commerce application that allow user to browse a variety of electronic products, view product details, add items to the cart, and proceed to checkout. The app is designed with a responsive user interface and intuitive shopping flow.",
-    tools: ["HTML", "Tailwindcss", "Vite", "Vue", "JSON-Server"],
+    tools: ["HTML", "Tailwindcss", "Vite", "Vue", "Pinia", "JSON-Server"],
     link: "https://github.com/rysryptr/vue-shoppeeng",
     dad: "300",
+  },
+  {
+    id: 4,
+    image: Project4,
+    name: "Jobleenked",
+    desc: "Job search website that allows users to find vacancies based on job title, city, or company, and displays detailed job information with a responsive and user-friendly interface.",
+    tools: ["Vite", "Vue Js", "TailwindCSS", "Javascript", "JSON-Server"],
+    link: "https://github.com/rysryptr/minimalism-ecomm",
+    dad: "400",
   },
   {
     id: 3,
