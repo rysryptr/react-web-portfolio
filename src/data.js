@@ -112,7 +112,7 @@ export const listProjects = [
     name: "Jobleenked",
     desc: "Job search website that allows users to find vacancies based on job title, city, or company, and displays detailed job information with a responsive and user-friendly interface.",
     tools: ["Vite", "Vue Js", "TailwindCSS", "Javascript", "JSON-Server"],
-    link: "https://github.com/rysryptr/minimalism-ecomm",
+    link: "https://github.com/rysryptr/jobleenked",
     dad: "400",
   },
   {

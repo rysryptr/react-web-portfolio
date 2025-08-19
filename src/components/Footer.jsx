@@ -36,6 +36,9 @@ export const Footer = () => {
         data-aos-delay="500"
         data-aos-once="true"
       >
+        <a href="https://gitlab.com/rysryptr" target="_blank">
+          <i className="ri-gitlab-fill"></i>
+        </a>
         <a href="https://github.com/rysryptr" target="_blank">
           <i className="ri-github-fill"></i>
         </a>
