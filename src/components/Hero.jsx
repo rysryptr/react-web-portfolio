@@ -8,7 +8,7 @@ export const Hero = () => {
         className="hero grid grid-cols-1 md:grid-cols-2 items-center pt-10 md:mt-24 gap-4 xl:gap-0 md:gap-6"
         id="home"
       >
-        <div className="animate__animated animate__fadeInUp animate__delay-3s">
+        <div className="animate__animated animate__fadeInUp animate__delay-3s mt-10 md:mt-0">
           <h1 className="text-4xl/tight font-bold mb-6">
             Hi, I'm Riyo Surya Putra
           </h1>

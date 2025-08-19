@@ -20,16 +20,25 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <div className="navbar flex items-center justify-between lg:sticky">
-      <div className="logo">
-        <h1 className="font-bold text-2xl md:text-3xl">
+    <div className="navbar fixed top-0 left-0 w-full flex items-center justify-between backdrop-blur-md  md:bg-slate-900 z-45 px-6 py-4">
+      <div className="logo p-4">
+        <h1
+          className={`font-bold text-2xl md:text-3xl md:block
+          ${active ? "hidden" : "block p-0"}
+          `}
+        >
           <span className="text-sky-500">Port</span>folio
         </h1>
       </div>
+
       <ul
-        className={`menu flex items-center z-40 sm:gap-10 gap-4 bg-white/30 backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl transition-all duration-300 fixed left-1/2 -translate-x-1/2 md:static md:-translate-x-0 md:opacity-100 md:transition-all md:duration-300 md:bg-transparent ${
-          active ? "top-0 opacity-100" : "-top-10 opacity-0"
-        }`}
+        className={`menu flex items-center sm:gap-10 gap-4 transition-all duration-300 md:static md:opacity-100 md:bg-transparent
+      ${
+        active
+          ? "fixed top-0 left-1/2 p-5 -translate-x-1/2 opacity-100 rounded-br-2xl rounded-bl-2xl"
+          : "opacity-0 -top-10"
+      }
+    `}
       >
         <li>
           <a href="#home" className="sm:text-lg text-base font-medium">

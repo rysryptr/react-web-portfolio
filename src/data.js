@@ -14,6 +14,7 @@ import Tools5 from "/assets/tools/bootstrap.png";
 import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/nodejs.png";
 import Tools8 from "/assets/tools/github.png";
+import Tools9 from "/assets/tools/gitLab.png";
 import Tools11 from "/assets/tools/figma.png";
 
 export const listTools = [
@@ -75,10 +76,17 @@ export const listTools = [
   },
   {
     id: 9,
+    image: Tools9,
+    name: "Gitlab",
+    ket: "Repository",
+    dad: "900",
+  },
+  {
+    id: 11,
     image: Tools11,
     name: "Figma",
     ket: "Design App",
-    dad: "900",
+    dad: "1000",
   },
 ];
 
